@@ -14,19 +14,19 @@
 		
 		Wpisz nazwę użytkownika, któremu chcesz zmienić uprawnienia. <br/>
 		
-	<!-- 	<label> Id : <input type="number"  min="0"  title="tylko liczby całkowite" id= "username" name="username" required/> </label><br/>		
-	-->	<label> Nazwa użytkownika <br/><input type="text"  pattern ="[a-zA-Z]*" title="Please enter only alphabets." id= "username" name="username" required/> </label><br/>		
-		<label>Wybierz uprawnienia:</label><br/>
-		<label>User 				<input type="radio"  name="userRole" value="user" required /> </label><br/>
-		<label>Premium user			<input type="radio"  name="userRole" value="premiumUser" required /> </label><br/>
-		<label>Admin	 			<input type="radio"  name="userRole" value="admin" required /> </label><br/>
+		<label> Nazwa użytkownika 	<br/><input type="text"  pattern ="[a-zA-Z]*" title="Please enter only alphabets." id= "username" name="username" required/> </label><br/>		
+		<label> Wybierz uprawnienia:</label><br/>
+		<label> User 				<input type="radio"  name="userRole" value="user" required /> </label><br/>
+		<label> Premium user		<input type="radio"  name="userRole" value="premiumUser" required /> </label><br/>
+		<label> Admin	 			<input type="radio"  name="userRole" value="admin" required /> </label><br/>
 		<input type="submit" name ="send" value="wyślij">
 			
+
+ 		<br/> <br/> <br/>
+		<button onclick="location.href='/menu';" type="button"> Powrót</button> 
 			
 	</form>
 
- 	<br/> <br/> <br/>
-	<button onclick="location.href='/menu';" type="button"> Powrót</button> 
 
 
 </body>
